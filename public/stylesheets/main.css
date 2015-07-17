@@ -1,0 +1,650 @@
+/*
+
+Colors: 
+background #193950;
+header #102131;
+accent1: #314F6B;
+grey: #d7d7d7;
+
+gold1:#F2B51C 
+gold2:#E58922;
+
+*/
+
+/* Overrides */
+h1,h2,h3,h4,h5,h6{
+    color: #E58922;
+}
+
+h1{
+    font-size:26px;
+    padding:0px;
+    margin:0px;
+}
+
+h2{
+    font-size:16px;
+    padding:0px;
+    margin:0px;
+    color: #F2B51C;
+}
+
+body{
+    background-color: #193950;
+    color:#AFA795;
+}
+
+/* BOOTSTRAP OVERRIDE*/
+@media(max-width:767px){
+    h1{
+        font-size:16px;
+    }
+
+    h2{
+        font-size:14px;
+        padding:0px;
+        margin:0px;
+    }
+    body{
+        font-size:11px;
+    }
+    #leaderSelection{
+        height:100%;
+    }
+    .notificationImage{
+        height:50px;
+        width:30px;
+    }
+}
+@media(min-width:768px){
+    h1{
+        font-size:16px;
+    }
+
+    h2{
+        font-size:14px;
+        padding:0px;
+        margin:0px;
+    }
+    body{
+        font-size:11px;
+    }
+
+    #leaderSelection{
+        height:100%;
+    }
+    .app-modal-window .modal-dialog {
+      width: 700px;
+    }
+    .paddingcard > div{
+        height:180px;
+        width:125px;
+    }
+    .notificationImage{
+        height:50px;
+        width:30px;
+    }
+}
+@media(min-width:992px){
+    h1{
+        font-size:20px;
+    }
+
+    h2{
+        font-size:14px;
+        padding:0px;
+        margin:0px;
+    }
+    body{
+        font-size:12px;
+    }
+    #leaderSelection{
+        height:100%;
+    }
+    .app-modal-window .modal-dialog {
+      width: 700px;
+    }
+    .paddingcard > div{
+        height:170px;
+        width:120px;
+    }
+    .notificationImage{
+        height:50px;
+        width:30px;
+    }
+}
+@media(min-width:1200px){
+    h1{
+        font-size:26px;
+    }
+
+    h2{
+        font-size:20px;
+        padding:0px;
+        margin:0px;
+    }
+    body{
+        font-size:12px;
+    }
+    #leaderSelection{
+        height:100%;
+    }
+    .app-modal-window .modal-dialog {
+      width: 800px;
+    }
+    .paddingcard > div{
+        height:233px;
+        width:154px;
+    }
+    .notificationImage{
+        height:50px;
+        width:30px;
+    }
+}
+
+  .cardFilters .col-xs-1,  
+  .cardFilters .col-md-1,
+  .cardFilters .col-sm-1,
+  .cardFilters .col-lg-1 {
+        width: 14.285714285714285714285714285714%;
+        *width: 14.285714285714285714285714285714%;
+  }
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+  color:#101010;
+}
+.form-control::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #ccc;
+}
+.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #ccc;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #ccc;
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #ccc;
+}
+.btn-primary{
+    color:#102131;
+    background-color:#F2B51C; 
+    border-color:#193950;
+    /*
+gold1:#F2B51C 
+gold2:#E58922;
+
+*/
+
+}
+
+.btn-primary:hover{
+    color:#102131;
+    background-color:#E58922; 
+    border-color:#193950;
+}
+
+/* Header */ 
+#header{
+    width:100%;
+    background-color: #102131;
+    padding-top:30px;
+    margin-bottom: 10px;
+}
+#header .row{
+    border-bottom:3px solid #314F6B;
+}
+#title h1{
+    font-size:26px;
+}
+#description{
+    font-size:16px;
+}
+.card11{
+    float:left;
+}
+
+.cards{
+    width:1000px;
+}
+
+.cardModify{
+    border: 1px solid black;
+    width:400px;
+}
+
+.cardView{
+    border:1px solid black;
+    float:left;
+}
+
+.cardProperties > div{
+    word-wrap: break-word;
+}
+
+.cardProperties{
+    float:left;
+}
+
+/* deck */
+
+.allCardsContainer{
+
+}
+
+#factionButtons{
+    padding:6px;
+}
+
+.paddingcard{
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+.cardContainer{
+    background-color:#102131; 
+    padding-top:5px;
+
+
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.cardContainerCards{
+    padding-bottom:15px;
+}
+
+.cardContainerCards .carousel-inner{
+    padding-top:30px;
+}
+
+.right{
+    background: -webkit-linear-gradient(90deg, #102131 20% , #F2B51C 99%) !important;
+    background: -o-linear-gradient(90deg, #102131 20%, #F2B51C 99%) !important; 
+    background: -moz-linear-gradient(90deg, #102131 20%, #F2B51C 99%) !important; 
+    background: linear-gradient(90deg, #102131 20%, #F2B51C 99%) !important; 
+    
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    opacity: 0.3;
+    width:10%;
+}
+.left{
+    background: -webkit-linear-gradient(270deg, #102131 20% , #F2B51C 99%) !important;
+    background: -o-linear-gradient(270deg, #102131 20% , #F2B51C 99%) !important; 
+    background: -moz-linear-gradient(270deg, #102131 20% , #F2B51C 99%) !important; 
+    background: linear-gradient(270deg, #102131 20% , #F2B51C 99%) !important; 
+
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    opacity: 0.3;
+    width:10%;
+}
+
+.cardFilters{
+    margin-top:4px;
+    margin-bottom:4px;
+    background-color: #d7d7d7;
+
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+
+    background: -webkit-linear-gradient(#ECF3FB, #BEC2C5);
+    background: -o-linear-gradient(#ECF3FB, #BEC2C5); 
+    background: -moz-linear-gradient(#ECF3FB, #BEC2C5); 
+    background: linear-gradient(#ECF3FB, #BEC2C5); 
+}
+
+.cardFilters > div{
+    background-color: #d7d7d7;
+    background: rgba(54, 25, 25, 0);
+    border:none;
+    border-right:1px solid #E8E8E8;
+    margin-top:1px;
+    margin-bottom:1px;
+
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+
+}
+
+.cardFilters > div:hover{
+    /*background-color: #ccc;*/
+    background: rgba(170, 170, 170, 0.6);
+    border:none;
+    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
+}
+
+.cardFilters > div .jordanGlyphicon{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.highlightedFilterButton{
+    background: rgba(170, 170, 170, 0.6) !important; 
+    border-left:1px solid #aaa !important;
+}
+
+#currentDeck{
+}
+
+.cardImage{
+    padding-top:5px;
+    padding-bottom: 5px
+}
+
+.cardImage:hover{
+    background-color: #DD820F, #F2B51C;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+     z-index: 1000;
+
+    /*background: -webkit-linear-gradient(#F2B51C, #DD820F); */
+    /*background: -o-radial-gradient(#F2B51C 50%, #DD820F 90%); */
+    /*background: -moz-radial-gradient(#F2B51C 50%, #DD820F 90%); */
+    /*background: radial-gradient(#F2B51C 50%, #DD820F 90%); */
+
+    background: -webkit-linear-gradient(#E58922, #F2B51C, #E58922);
+    background: -o-linear-gradient(#E58922, #F2B51C, #E58922); 
+    background: -moz-linear-gradient(#E58922, #F2B51C, #E58922); 
+    background: linear-gradient(#E58922, #F2B51C, #E58922); 
+}
+
+.cardAndCount:hover .cardImage{
+    background-color: #DD820F, #F2B51C;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+     z-index: 1000;
+
+    /*background: -webkit-linear-gradient(#F2B51C, #DD820F); */
+    /*background: -o-radial-gradient(#F2B51C 50%, #DD820F 90%); */
+    /*background: -moz-radial-gradient(#F2B51C 50%, #DD820F 90%); */
+    /*background: radial-gradient(#F2B51C 50%, #DD820F 90%); */
+
+    background: -webkit-linear-gradient(#E58922, #F2B51C, #E58922);
+    background: -o-linear-gradient(#E58922, #F2B51C, #E58922); 
+    background: -moz-linear-gradient(#E58922, #F2B51C, #E58922); 
+    background: linear-gradient(#E58922, #F2B51C, #E58922); 
+}
+
+.cardAndCount:hover .cardCount > span{
+    font-size:90px;
+}
+
+.cardAndCount{
+    padding:0px;
+}
+
+.cardAndCount.image{
+
+}
+
+.cardCount{
+    position: relative;
+    width: 0px;
+    height: 0px;
+}
+
+.cardCount > span {
+    position: absolute;
+    left:35px;
+    top:20px;
+    z-index: 1500;
+    font-size:80px;
+    opacity: 0.8;
+    color:#F2B51C !important;
+    cursor: default;
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+}
+
+#deckBuilderHeader{
+    text-align:center;
+    padding:6px;
+    margin-bottom:6px;
+}
+
+#deckBuilderHeader > div {
+
+    background:#102131;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    padding:6px;
+}
+
+#leaderSelection{
+    text-align:center;
+    background:#102131;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+#chosenFaction{
+    font-size:22px;
+    padding-bottom:10px;
+}
+
+#chosenFaction h1{
+    padding-top:5px;
+}
+
+#currentDeckStats{
+    background-color:#102131;
+    padding:4px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+
+}
+
+.fixedCardTotals{
+    position: fixed;
+    bottom:0px;
+    z-index: 2000;
+    width:100%;
+    border-top:2px solid #F2B51C;
+}
+
+#currentDeckStats div{
+    padding-top:3px;
+}
+
+#cardCollection{
+    padding:10px;
+}
+
+#cardCollection h1{
+    color:#F2B51C;
+}
+
+#cardCollectionCurrentFilter{
+    padding-bottom:10px;  
+}
+
+.cardCount{
+    margin-left:10px;
+    color:#ccc;
+}
+
+.highlightCardError{
+    color:red;
+}
+
+#deckURL{
+    font-size:20px;
+}
+
+/* Leader Cards */
+.factionButton{
+    padding:0px;
+    background-color:#193950;
+    border:1px solid #E58922;
+}
+.factionButton:hover{
+    padding:0px;
+    background-color:#F2B51C !important;
+    border:1px solid #F2B51C;
+}
+
+#leaderCards{
+    padding:14px;
+}
+
+.highlightSelectedLeaderCard{
+    background-color: #aaa !important;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+}
+
+.highlightSelectedFactionButton{
+    background-color:#E58922;
+}
+
+.leaderCard img{
+    padding-top:14px;
+    padding-bottom:14px;
+}
+
+#footer{
+    width:100%;
+    padding-top:30px;
+}
+#footer .row{
+    padding-top: 10px;
+    border-top:3px solid #314F6B;
+}
+
+#alertPanel{
+    position: fixed;
+    bottom:0px;
+    right:0px;
+    z-index: 2001;
+}
+
+.notificationImage{
+    padding:5px;
+}
+.notificationText{
+    padding-top:5px;
+}
+/* Custom Glyphs*/
+.jordanGlyphicon{
+    width:24px;
+    height:24px;
+    /*padding:12px;*/
+    background-repeat:no-repeat;
+}
+
+.jordanGlyphiconBackground{
+    background-color:#ccc;
+    border-color:#ccc;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    padding:12px;
+}
+
+.jordanGlyphicon.btn{
+    background-color:#ccc;
+    border-color:#ccc;
+    /*gold1:#F2B51C 
+gold2:#E58922;*/
+}
+
+.jordanGlyphicon.btn:hover{
+    background-color:#aaa;
+    border-color:#aaa;
+}
+
+.glyphicon-sword{
+    background-image:url('/images/glyphs/swordsmall.png');
+}
+
+.glyphicon-cardHand{
+    background-image:url('/images/glyphs/cardHand.png');
+}
+
+.glyphicon-bowAndArrow{
+    background-image:url('/images/glyphs/bowAndArrow.png');
+}
+
+.glyphicon-catapult{
+    background-image:url('/images/glyphs/catapult.png');
+}
+
+.glyphicon-helmet{
+    background-image:url('/images/glyphs/helmet.png');
+}
+
+.glyphicon-sun{
+    background-image:url('/images/glyphs/sun.png');
+}
+
+.glyphicon-spike{
+    background-image:url('/images/glyphs/spike.png');
+}
+
+.glyphicon-cardDeck{
+    background-image:url('/images/glyphs/cardDeck.png');
+}
+
+.glyphicon-fist{
+    background-image:url('/images/glyphs/fist.png');
+}

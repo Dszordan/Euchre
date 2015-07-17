@@ -1,0 +1,582 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cur",
+				"currentUsers"
+			],
+			[
+				"curr",
+				"currentUsers"
+			],
+			[
+				"sock",
+				"socketId"
+			],
+			[
+				"getall",
+				"getAvailableCards"
+			],
+			[
+				"singe",
+				"singleCardAdded"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"select",
+				"selectedFaction"
+			],
+			[
+				"exist",
+				"existingDeck"
+			],
+			[
+				"curred",
+				"currentDeckFactory"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"inf",
+				"availableCardsInfiniteScrolling"
+			],
+			[
+				"rang",
+				"ranged"
+			],
+			[
+				"avail",
+				"availableCardsFilter"
+			],
+			[
+				"availlea",
+				"availableLeaderCardsSuperset"
+			],
+			[
+				"lead",
+				"leaderCardsFilter"
+			],
+			[
+				"getl",
+				"getAvailableLeaderCards"
+			],
+			[
+				"ava",
+				"availableLeaderCards"
+			],
+			[
+				"GetAvaila",
+				"getAvailableLeaderCards"
+			],
+			[
+				"av",
+				"availableCardsFilter"
+			],
+			[
+				"avil",
+				"availableCardsFilter"
+			],
+			[
+				"flapper",
+				"flapper-news-token"
+			],
+			[
+				"upvo",
+				"upvoteComment"
+			],
+			[
+				"respose",
+				"responsesPrinted"
+			],
+			[
+				"respons",
+				"responsesPrinted"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"last_filter": "Package Control: install",
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: for",
+				"Snippet: for (…) {…}"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/NodeTutorials/Euchre"
+	],
+	"file_history":
+	[
+		"/C/NodeTutorials/Euchre/app.js",
+		"/C/NodeTutorials/Euchre/routes/index.js",
+		"/C/NodeTutorials/Euchre/bin/www",
+		"/C/NodeTutorials/Euchre/public/javascripts/angularapp.js",
+		"/C/NodeTutorials/Euchre/public/javascripts/services.js",
+		"/C/NodeTutorials/Euchre/public/javascripts/configuration.js",
+		"/C/NodeTutorials/Euchre/routes/users.js",
+		"/C/NodeTutorials/socketio/index.html",
+		"/C/NodeTutorials/socketio/index.js",
+		"/C/NodeTutorials/gwentcommit/deploy/routes/index.js",
+		"/C/NodeTutorials/gwentcommit/deploy/public/javascripts/angularapp.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/javascripts/angularapp.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/uploadMonsterCards.json",
+		"/C/NodeTutorials/gwentcommit/deploy/bin/www",
+		"/C/NodeTutorials/gwentcommit/deploy/app.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/app.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/package.json",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/cardTotalsVertical.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/stylesheets/main.css",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/deckLeader.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/viewDeck.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/javascripts/configuration.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/cardTotals.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/views/index.ejs",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/deckBuilder.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/leaderCardSelection.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/notification.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/deckCardsSelection.html",
+		"/C/Users/jordan/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/availableCardsSelection.html",
+		"/C/Users/jordan/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/javascripts/ui-bootstrap-tpls-0.13.0.min.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/javascripts/services.js",
+		"/C/Users/jordan/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/jordan/AppData/Roaming/Sublime Text 3/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
+		"/C/Users/jordan/AppData/Roaming/Sublime Text 3/Packages/User/AngularJS-sublime-package.sublime-settings",
+		"/C/Users/jordan/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/jordan/AppData/Roaming/Sublime Text 3/Installed Packages/AngularJS.sublime-package",
+		"/C/Users/jordan/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/Cards.js",
+		"/C/Users/jordan/AppData/Local/Temp/fz3temp-1/index.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/deckCardSelection.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/uploadNeutralCards.json",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/uploadNorthernrealmsCards.json",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/allCards.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/modifyCard.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/uploadLeaders.json",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/uploadNilfgardCards.json",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/uploadScoiataelCards.json",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/uploadSpecialCards.json",
+		"/C/NodeTutorials/gwentcommit/Gwent/routes/index.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/credits.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/bin/www",
+		"/C/NodeTutorials/gwentcommit/leaderabilities.txt",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/imagefilereplacement.BAT",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/Curlstatements.json",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/uploadMonsterCards",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/imagefilereplacement",
+		"/C/Users/jordan/Downloads/cards/imagefilereplacement.BAT",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/leadercardUpload.json",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/uploadnorthernrealms.json",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/Curlstatements",
+		"/C/NodeTutorials/fuckoff/Gwent/public/templates/deckBuilder.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/modifyLeaderCard.html",
+		"/C/Users/jordan/Downloads/ngInfiniteScroll-1.2.1/ng-infinite-scroll.min.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/javascripts/ng-infinite-scroll.min.js",
+		"/C/NodeTutorials/MeanStack/data/mongod.cfg",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/allLeaderCards.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/login.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/.gitignore",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/LeaderCards.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/Decks.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/Comments.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/Posts.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/node_modules/express/lib/router/route.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/node_modules/express/lib/router/layer.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/node_modules/express/lib/router/index.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/node_modules/express/lib/middleware/query.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/node_modules/express/lib/middleware/init.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/node_modules/express/lib/view.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/node_modules/express/lib/request.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/node_modules/express/lib/express.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/node_modules/express/lib/application.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/CardUpload.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/config/passport.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/node_modules/express/package.json",
+		"/C/NodeTutorials/gwentcommit/Gwent/node_modules/express/index.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/routes/users.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/posts.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/comments.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/templates/register.html",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/posts.js",
+		"/C/Users/jordan/Downloads/Gwent-master/Gwent-master/models/cards.js",
+		"/C/NodeTutorials/Gwent/public/templates/deckBuilder.html",
+		"/C/NodeTutorials/Gwent/public/stylesheets/main.css",
+		"/C/NodeTutorials/Gwent/public/javascripts/angularapp.js",
+		"/C/NodeTutorials/Gwent/views/index.ejs",
+		"/C/NodeTutorials/Gwent/app.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/models/cards.js",
+		"/C/Users/jordan/Downloads/Gwent-master/Gwent-master/app.js",
+		"/C/NodeTutorials/Gwent/routes/index.js",
+		"/C/NodeTutorials/Gwent/.gitignore",
+		"/C/NodeTutorials/Gwent/models/cards.js",
+		"/C/NodeTutorials/gwentcommit/Gwent/public/stylesheets/style.css",
+		"/C/NodeTutorials/Gwent/.idea/modules.xml",
+		"/C/NodeTutorials/Gwent/public/stylesheets/style.css",
+		"/C/NodeTutorials/Gwent/models/comments.js",
+		"/C/NodeTutorials/Gwent/models/Curlstatements",
+		"/C/NodeTutorials/Gwent/models/CardUpload.js",
+		"/C/NodeTutorials/Gwent/package.json",
+		"/C/NodeTutorials/Gwent/models/posts.js",
+		"/C/NodeTutorials/MeanStack/flapper-news/routes/index.js",
+		"/C/NodeTutorials/Gwent/bin/www",
+		"/C/NodeTutorials/Gwent/models/users.js",
+		"/C/NodeTutorials/Gwent/Gwent/models/posts.js",
+		"/C/NodeTutorials/Gwent/Gwent/config/passport.js",
+		"/C/NodeTutorials/MeanStack/flapper-news/models/posts.js",
+		"/C/NodeTutorials/MeanStack/flapper-news/models/users.js",
+		"/C/NodeTutorials/MeanStack/flapper-news/config/passport.js",
+		"/C/NodeTutorials/MeanStack/flapper-news/app.js",
+		"/C/NodeTutorials/MeanStack/flapper-news/models/comments.js",
+		"/C/NodeTutorials/MeanStack/flapper-news/public/javascripts/angularapp.js",
+		"/C/NodeTutorials/MeanStack/flapper-news/views/index.ejs",
+		"/C/NodeTutorials/MeanStack/Gwent/package.json",
+		"/C/NodeTutorials/Gwent/Gwent/README.md",
+		"/C/NodeTutorials/MeanStack/Gwent/README.md",
+		"/C/NodeTutorials/MeanStack/Gwent/app.js",
+		"/C/NodeTutorials/MeanStack/flapper-news/package.json"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"socketId",
+			"div",
+			"20993",
+			"gwentbuilder.com",
+			"12",
+			"col-xs-1",
+			"availableCards",
+			"loadExistingDeck",
+			"getAvailableCards",
+			"currentDeckFactory",
+			"singleCardAdded",
+			"availableCardSelected",
+			"btn",
+			"factionbu",
+			"scrollAboveElementListener",
+			"align",
+			"showTotals",
+			"total",
+			"leaderSelection",
+			"leader",
+			"factionPassive",
+			" #102131, #F2B51C, #E58922",
+			"102131",
+			"99",
+			"99%",
+			"95",
+			"F2B51C",
+			"70",
+			", #E58922",
+			"10",
+			"F2B51C",
+			"90deg",
+			"180deg",
+			"E58922",
+			"gradient(",
+			"color",
+			"background",
+			"h1",
+			"2",
+			"showTotals",
+			"totalSpecialCards",
+			"cardContainerCards",
+			"div",
+			"25",
+			"E58922",
+			"F2B51C",
+			", #E58922",
+			"ctrl+shift+d",
+			", #E58922",
+			"E58922",
+			", #E58922",
+			"infinite",
+			"availableCardsInfiniteScrolling",
+			"infinite",
+			"paddingcard",
+			"DD820F",
+			"F2B51C",
+			"find_under_expand",
+			"ctrl+d",
+			"+d",
+			"ctrl",
+			"ctrl+d",
+			"F2B51C",
+			"/* For Opera 11.6-12.0 */",
+			"90%",
+			"50%",
+			"radial",
+			"blue",
+			"5%",
+			"5",
+			"60",
+			"red",
+			"green 15%,",
+			"ctrl+k",
+			"index",
+			"cardfilter",
+			"availableCardsFilterName",
+			"switchCurrentCardsFilter",
+			"currentDeckFilterName",
+			"div",
+			"ng-class=\"{highlightedFilterButton: currentDeckFilterName === 'ranged'}\"",
+			"class=\"col-xs-1 btn btn-primary\"",
+			"col-xs-1",
+			"btn btn-primary ",
+			"3",
+			"cardContainer",
+			"cardFilters",
+			"seven-cols",
+			"10",
+			"deckCardSelection",
+			"factionChanged",
+			"i",
+			"availableCardSelected",
+			"loadExistingDeck",
+			"png",
+			"scroll",
+			"localhost",
+			"gwentbuilder.com",
+			"cardim",
+			"localhost",
+			"footer",
+			"cardCount",
+			"col-sm",
+			"col-lg",
+			"REPLACE",
+			"\\\"none\\\"",
+			"scoiatael",
+			"REPLACE",
+			"nilfgaardian",
+			"REPLACE",
+			"veter",
+			"REPLACE",
+			"STRENGTH",
+			"REPLACE",
+			"havekarsmuggler1",
+			"REPLACE",
+			"false",
+			"mennocoehoorn",
+			"lethoofgulet",
+			"REPLACE",
+			"monster",
+			"2",
+			"nekker3",
+			"nekker1",
+			"true",
+			"neutral",
+			"Triss Merigold",
+			"special"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"20933",
+			"localhost:20993",
+			"jpg",
+			"localhost:20933",
+			"localhost",
+			"gwentbuilder.com",
+			"col-xs",
+			"col-sm",
+			"scoiatael",
+			"nilfgaardian",
+			"jpg",
+			"JPG",
+			"MOVE ",
+			"\" replace.jpg\\nmv \"",
+			"\"\\nmv \"",
+			"\"\\n mv \"",
+			"\"\\r\\n mv \"",
+			"\" mv \"",
+			"",
+			",\\\"abilities\\\":[]}\"",
+			",\\\"abilities\\\":[]",
+			"",
+			"localhost/",
+			"div",
+			"\\\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Euchre.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
